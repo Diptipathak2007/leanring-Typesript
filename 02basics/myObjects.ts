@@ -18,5 +18,16 @@ function createCourse(): { name: string; isPaid: boolean } {
 }
 
 
+type User={
+    name:string;
+    email:string;
+    isActive:boolean
+}
+function CreateUser(user:User){
+    return {name:"",email:"",isActive:true}
+}
+CreateUser({name:"",email:"",isActive:true})
+
+
 export {};
 

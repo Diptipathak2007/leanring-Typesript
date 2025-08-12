@@ -16,3 +16,7 @@ function createCourse() {
         isPaid: true
     };
 }
+function CreateUser(user) {
+    return { name: "", email: "", isActive: true };
+}
+CreateUser({ name: "", email: "", isActive: true });
