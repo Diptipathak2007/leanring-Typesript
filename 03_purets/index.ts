@@ -8,7 +8,7 @@
 //         this.city=this.city
 //     }
 // }
-class pUser{
+class piUser{
     
     private readonly city:string="jaipur"
     constructor(public email:string,public name:string){
@@ -17,5 +17,5 @@ class pUser{
         this.city=this.city
     }
 }
-const dipti=new pUser("d@d.com","dipti")
+const doipti=new pUser("d@d.com","dipti")
 //dipti.city cannot be accessed
