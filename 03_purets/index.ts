@@ -22,5 +22,13 @@
 //     private deleteToken(){console.log("Token deleted")}
 // }
 
+// class subUser extends User{
+//     isFamily:boolean=true
+//     changecoursecount(){
+//         this._coursecount=4//moment we change private to protected it means that variable can be eaccesses in the same class as well as any other class which inherits that same  class
+//     }
+// }
+
 //const do0ipti=new piUser("d@d.com","dipti")
 //dipti.city cannot be accessed
+
