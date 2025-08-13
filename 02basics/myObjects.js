@@ -16,7 +16,10 @@ function createCourse() {
         isPaid: true
     };
 }
-function CreateUser(user) {
-    return { name: "", email: "", isActive: true };
-}
-CreateUser({ name: "", email: "", isActive: true });
+var myUser = {
+    _id: "1234",
+    name: "h",
+    email: "h@h.com",
+    isActive: false
+};
+myUser.email = "h@gmail.com";
