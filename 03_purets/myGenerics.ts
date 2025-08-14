@@ -18,3 +18,13 @@ interface bottle{
     type:number
 }
 identityFour<bottle>({brand:"gym",type:22})
+
+function getSearchProducts<T>(products:T[]):T{
+    //do some database operations
+    const myIndex=3
+    return products[myIndex]
+}
+const getMoreSearchProducts=<T>(products:T[]):T=>{
+    //do some database operation
+    return products[4]
+}
