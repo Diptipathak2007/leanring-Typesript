@@ -23,3 +23,18 @@ var getMoreSearchProducts = function (products) {
     //do some database operation
     return products[4];
 };
+function anotherFunction(valOne, valTwo) {
+    return {
+        valOne: valOne,
+        valTwo: valTwo
+    };
+}
+var Sellable = /** @class */ (function () {
+    function Sellable() {
+        this.cart = [];
+    }
+    Sellable.prototype.addToCart = function (product) {
+        this.cart.push(product);
+    };
+    return Sellable;
+}());
